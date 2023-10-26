@@ -1,0 +1,98 @@
+.wich{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid brown;
+}
+
+
+.wich h1{
+color: brown;
+}
+
+
+.wich ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+
+.wich ul li a{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+.{background-color: rgb(175, 15, 129) ;}
+.arrange{text-align: center;}
+.bigger{color:blue;font-size: 30px;}
+.dragon{border: 1px solid green;}
+.box{margin-top:5px;text-align: center;border: 2px solid salmon; width: 50%;}
+.change{background-color: blueviolet ;border-radius: 40px; display: flex; flex-direction: column;}
+.form {
+    padding: 2em;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    margin-bottom: 30px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+
+}
+
+label {
+    align-self: flex-start;
+}
+
+footer {
+    background-color: #08101f;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #eee;
+}
+
+#resume, #about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume_container {
+    background-color: rgba(128, 27, 128, 0.706);
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.resume_container h2 {
+    margin-right: 2em;
+}
+
+.resume_container button {
+    padding: 1em 3em;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.59);
+}
