@@ -1,13 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
 .wich{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid brown;
+    background-color:blueviolet;
 }
 
 
 .wich h1{
-color: brown;
+color: white;
 }
 
 
@@ -20,10 +39,13 @@ color: brown;
 
 
 .wich ul li a{
-    color: brown;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     
+}
+.wich li a:hover {
+    color: black;
 }
 
 
@@ -47,6 +69,7 @@ input {
     height: 15px;
     padding: 10px;
     border-radius: 10px;
+
 }
 
 input[type="submit"] {
